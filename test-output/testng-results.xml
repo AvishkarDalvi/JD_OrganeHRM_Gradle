@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28931" started-at="2021-03-02T13:26:24 IST" finished-at="2021-03-02T13:26:53 IST">
+  <suite name="Suite" duration-ms="27224" started-at="2021-03-03T11:39:38 IST" finished-at="2021-03-03T11:40:05 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="28931" started-at="2021-03-02T13:26:24 IST" finished-at="2021-03-02T13:26:53 IST">
-      <class name="testNGListener.logger.OrangeHRM_Login_Before_After_Example">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:testNGListener.logger.OrangeHRM_Login_Before_After_Example@1372ed45]" name="LaunchBrowser" is-config="true" duration-ms="2844" started-at="2021-03-02T13:26:25 IST" description="Chrome Browser Launched" finished-at="2021-03-02T13:26:27 IST">
+    <test name="Test" duration-ms="27224" started-at="2021-03-03T11:39:38 IST" finished-at="2021-03-03T11:40:05 IST">
+      <class name="com.OrangeHRM.OrangeHRM_MouseOver">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.OrangeHRM.OrangeHRM_MouseOver@c46bcd4]" name="beforeTest" is-config="true" duration-ms="9792" started-at="2021-03-03T11:39:38 IST" finished-at="2021-03-03T11:39:48 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="LoginToOrangeHRM()[pri:0, instance:testNGListener.logger.OrangeHRM_Login_Before_After_Example@1372ed45]" name="LoginToOrangeHRM" duration-ms="25111" started-at="2021-03-02T13:26:27 IST" description="Verify-post login user land to Dashboard page" finished-at="2021-03-02T13:26:53 IST">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.OrangeHRM.OrangeHRM_MouseOver@c46bcd4]" name="Login" duration-ms="14702" started-at="2021-03-03T11:39:48 IST" finished-at="2021-03-03T11:40:03 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginToOrangeHRM -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testNGListener.logger.OrangeHRM_Login_Before_After_Example@1372ed45]" name="CloseBrowser" is-config="true" duration-ms="805" started-at="2021-03-02T13:26:53 IST" description="Browser Closed Successfully" finished-at="2021-03-02T13:26:53 IST">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:2, instance:com.OrangeHRM.OrangeHRM_MouseOver@c46bcd4]" name="Logout" duration-ms="1924" started-at="2021-03-03T11:40:03 IST" finished-at="2021-03-03T11:40:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- testNGListener.logger.OrangeHRM_Login_Before_After_Example -->
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.OrangeHRM.OrangeHRM_MouseOver@c46bcd4]" name="afterTest" is-config="true" duration-ms="731" started-at="2021-03-03T11:40:05 IST" finished-at="2021-03-03T11:40:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.OrangeHRM.OrangeHRM_MouseOver -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
