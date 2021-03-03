@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="3">
+<listeners>
+	<listener class-name="com.ExtentReport.Listeners"/>
+</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.SingleExtentReport_Example.OrangeHRM_Navigation" />
+			<class name="com.SingleExtentReport_Example.OrangeHRM_Login_Parameters" />
+			<class name="com.SingleExtentReport_Example.OrangeHRM_MouseOver" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

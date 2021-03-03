@@ -1,0 +1,31 @@
+<class name="com.OrangeHRM.OrangeHRM_Login_Parameters"/>
+
+ <class name="com.OrangeHRM.CrossBrowser_Testing"/>
+
+https://confluence.deere.com/display/MR/New+Employee+Onboarding
+
+https://confluence.deere.com/display/MR/New+Employee+Onboarding
+
+
+
+
+AG85393		PUBLIC
+AG85393		sap.hana.xs.lm.roles::ExecuteTransport
+AG85393		deere.moci.om.security.roles::moci_read_ZZZZZ
+AG85393		deere.moci.om.security.roles::business_review
+AG85393		deere.security.apps.security.roles.moci_om::developer
+AG85393		deere.moci.om.security.roles::pricing_auth_ma_all_admin
+AG85393		deere.security.apps.security.roles.moci_om::data_loader_pricing_qrtz_maint
+
+
+user params
+
+
+AG85393	KERBEROS ENABLED	AG85393@jdnet.deere.com
+AG85393	SAML ENABLED	TABLEAU
+AG85393	SAML ENABLED	ECBI
+AG85393	IS PASSWORD ENABLED	TRUE
+AG85393	SAP LOGON TICKET ENABLED	FALSE
+AG85393	SAP ASSERTION TICKET ENABLED	FALSE
+AG85393	CLIENT	230
+AG85393	USER_FULLNAME	GADKARI AMIT
